@@ -276,16 +276,26 @@ footer {
     background-color: white;
     height: auto;
     display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
+    justify-content: space-between;
+    
     position: relative;
     vertical-align: text-bottom;
 }
+.ley{
+    display: flex;
+    align-items: center;
+}
+.ley p{
+    color: black;
+    font-size: 10px;
+    
 
+}
 .cuadros {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end
+    justify-content: flex-end;
+    vertical-align: text-bottom;
 }
 
 .rojo {
@@ -449,7 +459,11 @@ font-size: small;
 }
 
 
+.ley p{
+    color: black;
+    font-size: 0;
 
+}
 
 
 
