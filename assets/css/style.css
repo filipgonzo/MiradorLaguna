@@ -28,12 +28,12 @@ video{
 
 @font-face {
     font-family: CenturyGothic-italic;
-    src: url(/assets/fonts/CenturyGothic-Italic.ttf);
+    src: "assets/fonts/CenturyGothic-Italic.ttf";
 }
 
 @font-face {
     font-family: CenturyGothic;
-    src: url(/assets/fonts/CenturyGothic.ttf);
+    src: "assets/fonts/CenturyGothic.ttf";
 }
 
 .barra {
@@ -121,7 +121,7 @@ video{
 
 @font-face {
     font-family: CenturyGothic-bold;
-    src: url(/assets/fonts/CenturyGothic-Bold.ttf);
+    src: "assets/fonts/CenturyGothic-Bold.ttf";
 }
 
 .parrafomedio1 h3 {
@@ -134,7 +134,7 @@ video{
 
 @font-face {
     font-family: HeyLovely;
-    src: url(/assets/fonts/HeyLovely-Regular.ttf);
+    src: "assets/fonts/HeyLovely-Regular.ttf";
 }
 
 .parrafomedio2 h3 {
@@ -158,7 +158,7 @@ video{
 
 @font-face {
     font-family: HelveticaNeue;
-    src: url(/assets/fonts/HelveticaNeue.ttc);
+    src: "assets/fonts/HelveticaNeue.ttc";
 }
 
 button {
