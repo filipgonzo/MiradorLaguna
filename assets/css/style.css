@@ -28,7 +28,6 @@ video{
 
 
 
-
 @font-face {
     font-family: 'CenturyGothic-italic';
     src: url("../fonts/CenturyGothic-Italic.ttf");
@@ -267,12 +266,6 @@ border-right: 2px solid white;
     text-align: end;
 }
 
-
-
-
-
-
-
 footer {
     background-color: white;
     height: auto;
@@ -320,7 +313,7 @@ footer {
 
 @media(max-width: 576px){
 .background {
-    height: 800px;
+    height: 65%;
 }
 .location p {
     font-size: smaller;
@@ -346,7 +339,7 @@ footer {
 
 .logoMedio img {
     width: 56vw;
-    padding-top: 70%;
+    padding-top: 5%;
 }
 
 .parrafomedio1 h3 {
@@ -380,9 +373,7 @@ button {
     display: flex;
     flex-direction: column;
     margin-bottom: 3vh;
-
 }
-
 
 p {
     margin: 0;
@@ -410,9 +401,6 @@ p {
 p{
     color: white;
 }
-
-
-
 
 .construye .c{
     color: rgb(0, 120, 112);
@@ -465,20 +453,6 @@ font-size: small;
     font-size: 0;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .rojo {
     width: 26px;
