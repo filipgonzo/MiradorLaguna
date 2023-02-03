@@ -23,7 +23,7 @@ video{
     background-size: cover;
     position: relative;
     z-index: 7;
-    height: 90vh;
+    
 }
 
 
@@ -92,12 +92,13 @@ video{
 
 .logomediopadre {
     display: flex;
-    max-height: 85%;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 138px;
+    
 }
 
 
@@ -112,7 +113,7 @@ video{
 
 .logoMedio img {
     width: 20vw;
-    padding-top: 26vh;
+    
 }
 
 @font-face {
@@ -123,7 +124,7 @@ video{
 .parrafomedio1 h3 {
     color: white;
     font-size: 56px;
-    padding-top: 25vh;
+   
     text-shadow: 1px 1px 2px black;
     font-family: 'CenturyGothic-bold';
 }
@@ -136,7 +137,7 @@ video{
 .parrafomedio2 h3 {
     color: white;
     font-size: 68px;
-    padding-left: 70vw;
+    padding-left: 67vw;
     text-shadow: 1px 1px 2px black;
     font-family: 'HeyLovely';
 }
@@ -201,6 +202,76 @@ p {
 
 }
 
+.rectangulo{
+    background-color:rgb(99, 100, 95);
+    height: 258px;
+    display: flex;
+        flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.vende .empresa{
+    color: rgb(255, 118, 31);   
+}
+p{
+    color: white;
+}
+
+.aliados{
+  display: flex;  
+}
+
+
+.construye .c{
+    color: rgb(0, 120, 112);
+}
+
+.desarrolla{
+    padding-left: 3vw;
+}
+
+.desarrolla .d{
+    color: rgb(255, 57, 55);
+}
+
+.logo{
+    width: 20vw;
+}
+
+.contacto{
+padding-right: 10px;    
+border-right: 2px solid white;
+}
+
+.ladoIzq{
+ display: flex;
+     flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.serviu{
+    margin-left: 2vw;
+    width: 9vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.serviu img{
+    width: 5vw;
+}
+
+.serviu p{
+    text-align: end;
+}
+
+
+
+
+
+
+
 footer {
     background-color: white;
     height: auto;
@@ -233,11 +304,12 @@ footer {
     width: 96px;
     height: 96px;
     background-color: rgb(255, 118, 31);
+
 }
 
 @media(max-width: 576px){
 .background {
-    height: 96vh;
+    height: 800px;
 }
 .location p {
     font-size: smaller;
@@ -314,6 +386,85 @@ p {
     font-size: 40px;
     margin: 0;
 }
+
+/* comienza pie de pagina*/
+.rectangulo{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.vende .empresa{
+    color: rgb(255, 118, 31);   
+}
+p{
+    color: white;
+}
+
+
+
+
+.construye .c{
+    color: rgb(0, 120, 112);
+}
+
+.desarrolla{
+    padding-left: 3vw;
+}
+
+.desarrolla .d{
+    color: rgb(255, 57, 55);
+}
+
+.logo{
+    width: 200px;
+}
+
+.contacto{
+padding-right: 10px;    
+border-right: 2px solid white;
+font-size: small;
+}
+
+.ladoIzq{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.serviu{
+    margin-left: 0vw;
+    width: 41vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.serviu img{
+    width: 10vw;
+}
+
+.serviu p{
+    text-align: end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .rojo {
     width: 26px;
     height: 26px;
