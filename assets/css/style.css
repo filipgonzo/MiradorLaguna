@@ -27,13 +27,13 @@ video{
 
 
 @font-face {
-    font-family: CenturyGothic-italic;
-    src: "assets/fonts/CenturyGothic-Italic.ttf";
+    font-family: 'CenturyGothic-italic';
+    src: url("../fonts/CenturyGothic-Italic.ttf");
 }
 
 @font-face {
-    font-family: CenturyGothic;
-    src: "assets/fonts/CenturyGothic.ttf";
+    font-family: 'CenturyGothic';
+    src: url("../fonts/CenturyGothic.ttf");
 }
 
 .barra {
@@ -59,7 +59,7 @@ video{
 .location p {
     padding-left: 1vw;
     color: white;
-    font-family: CenturyGothic;
+    font-family: 'CenturyGothic';
 
 }
 
@@ -78,7 +78,7 @@ video{
 .menu p {
     color: white;
     padding-right: 1vw;
-    font-family: CenturyGothic;
+    font-family: 'CenturyGothic';
     margin: 0;
 
 }
@@ -98,16 +98,12 @@ video{
     align-content: center;
     justify-content: space-evenly;
     align-items: center;
-
-
 }
 
 
 .logoMedio {
     display: flex;
-
     padding-left: 9vw;
-
     flex-direction: row;
     align-items: center;
 
@@ -120,8 +116,8 @@ video{
 }
 
 @font-face {
-    font-family: CenturyGothic-bold;
-    src: "assets/fonts/CenturyGothic-Bold.ttf";
+    font-family: 'CenturyGothic-bold';
+    src: url("../fonts/CenturyGothic-Bold.ttf");
 }
 
 .parrafomedio1 h3 {
@@ -129,12 +125,12 @@ video{
     font-size: 56px;
     padding-top: 25vh;
     text-shadow: 1px 1px 2px black;
-    font-family: CenturyGothic-bold;
+    font-family: 'CenturyGothic-bold';
 }
 
 @font-face {
-    font-family: HeyLovely;
-    src: "assets/fonts/HeyLovely-Regular.ttf";
+    font-family: 'HeyLovely';
+    src: url("../fonts/HeyLovely-Regular.ttf");
 }
 
 .parrafomedio2 h3 {
@@ -142,7 +138,7 @@ video{
     font-size: 68px;
     padding-left: 70vw;
     text-shadow: 1px 1px 2px black;
-    font-family: HeyLovely;
+    font-family: 'HeyLovely';
 }
 
 .boton {
@@ -157,8 +153,8 @@ video{
 }
 
 @font-face {
-    font-family: HelveticaNeue;
-    src: "assets/fonts/HelveticaNeue.ttc";
+    font-family: 'HelveticaNeue';
+    src: url("../fonts/HelveticaNeue.ttc");
 }
 
 button {
@@ -168,10 +164,11 @@ button {
     text-align: center;
     border: 2px solid rgb(255, 118, 31);
     border-radius: 20px;
-    font-family: HelveticaNeue;
+    font-family: 'HelveticaNeue';
     font-size: 3vh;
     width: 300px;
 }
+
 
 .subsidio {
     color: white;
@@ -179,7 +176,7 @@ button {
     width: 200px;
     height: 150px;
     text-align: center;
-    font-family: CenturyGothic;
+    font-family: 'CenturyGothic';
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -200,12 +197,12 @@ p {
 }
 
 .subsidio .p2 {
-    font-family: CenturyGothic-bold;
+    font-family: 'CenturyGothic-bold';
     font-size: 37px;
 }
 
 .subsidio .p3 {
-    font-family: CenturyGothic-bold;
+    font-family: 'CenturyGothic-bold';
     font-size: 50px;
     color: red;
     margin: 0;
