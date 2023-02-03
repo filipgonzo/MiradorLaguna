@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.background {
+    /* background-image: url("/assets/img/Links/Captura\ de\ Pantalla\ 2023-01-25\ a\ la\(s\)\ 09.45.52.png");
+    
+    background: linear-gradient(to right, rgb(0 0 0 / .3), rgb(0 0 0 / .3)), url("/assets/img/Links/Captura\ de\ Pantalla\ 2023-01-25\ a\ la\(s\)\ 09.45.52.png");*/
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 7;
+    height: 90vh;
+}
+
+
+
+
+@font-face {
+    font-family: CenturyGothic-italic;
+    src: url(/assets/fonts/CenturyGothic-Italic.ttf);
+}
+
+@font-face {
+    font-family: CenturyGothic;
+    src: url(/assets/fonts/CenturyGothic.ttf);
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+
+
+}
+
+
+.location {
+    padding-left: 2vw;
+    display: flex;
+    align-items: center;
+    padding-top: 2vh;
+}
+
+
+
+.location p {
+    padding-left: 1vw;
+    color: white;
+    font-family: CenturyGothic;
+
+}
+
+
+.menu {
+    padding-top: 2vh;
+    padding-right: 2vw;
+    display: flex;
+    width: 3vw;
+    height: 4vh;
+    align-items: center;
+    text-shadow: 1px 1px 2px black;
+    justify-content: flex-end;
+}
+
+.menu p {
+    color: white;
+    padding-right: 1vw;
+    font-family: CenturyGothic;
+    margin: 0;
+
+}
+
+.menu img {
+    width: 40px;
+    height: 40px;
+
+}
+
+
+.logomediopadre {
+    display: flex;
+    max-height: 85%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+
+.logoMedio {
+    display: flex;
+
+    padding-left: 9vw;
+
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.logoMedio img {
+    width: 20vw;
+    padding-top: 26vh;
+}
+
+@font-face {
+    font-family: CenturyGothic-bold;
+    src: url(/assets/fonts/CenturyGothic-Bold.ttf);
+}
+
+.parrafomedio1 h3 {
+    color: white;
+    font-size: 56px;
+    padding-top: 25vh;
+    text-shadow: 1px 1px 2px black;
+    font-family: CenturyGothic-bold;
+}
+
+@font-face {
+    font-family: HeyLovely;
+    src: url(/assets/fonts/HeyLovely-Regular.ttf);
+}
+
+.parrafomedio2 h3 {
+    color: white;
+    font-size: 68px;
+    padding-left: 70vw;
+    text-shadow: 1px 1px 2px black;
+    font-family: HeyLovely;
+}
+
+.boton {
+    position: relative;
+    top: 66vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(/assets/fonts/HelveticaNeue.ttc);
+}
+
+button {
+    margin-left: 2vw;
+    background-color: rgb(255, 118, 31);
+    color: white;
+    text-align: center;
+    border: 2px solid rgb(255, 118, 31);
+    border-radius: 20px;
+    font-family: HelveticaNeue;
+    font-size: 3vh;
+    width: 300px;
+}
+
+.subsidio {
+    color: white;
+    border: 2px solid white;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    font-family: CenturyGothic;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
+hr {
+    color: red;
+    border-color: red;
+    margin: 0;
+    border: 2px;
+    background-color: red;
+    opacity: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+.subsidio .p2 {
+    font-family: CenturyGothic-bold;
+    font-size: 37px;
+}
+
+.subsidio .p3 {
+    font-family: CenturyGothic-bold;
+    font-size: 50px;
+    color: red;
+    margin: 0;
+
+}
+
+footer {
+    background-color: white;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    position: relative;
+    top: 70vh;
+
+}
+
+.cuadros {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+}
+
+.rojo {
+    width: 96px;
+    height: 96px;
+    background-color: rgb(255, 57, 55);
+}
+
+.verde {
+    width: 96px;
+    height: 96px;
+    background-color: rgb(0, 120, 112);
+}
+
+.amarillo {
+    width: 96px;
+    height: 96px;
+    background-color: rgb(255, 118, 31);
+}
