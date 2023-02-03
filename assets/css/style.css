@@ -278,7 +278,6 @@ footer {
     height: auto;
     display: flex;
     justify-content: space-between;
-    
     position: relative;
     vertical-align: text-bottom;
 }
@@ -289,6 +288,7 @@ footer {
 .ley p{
     color: black;
     font-size: 10px;
+    padding-left: 2vw;
     
 
 }
