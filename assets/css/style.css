@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-video{
+video {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -15,18 +15,125 @@ video{
     transform: translateX(-50%) translateY(-50%);
 }
 
-.background {
-    /*background-image: url("/assets/img/Links/Captura\ de\ Pantalla\ 2023-01-25\ a\ la\(s\)\ 09.45.52.png");*/
-    
-    background: linear-gradient(to right, rgb(0 0 0 / .3), rgb(0 0 0 / .3)), url("/assets/img/Links/portada.png");
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    z-index: 7;
-    
+.menuPrincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+}
+
+.icono {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(0 0 0 / .9), rgb(0 0 0 / .9));
+    display: none;
+
+
+}
+
+.cierre {
+    position: fixed;
+    z-index: 1000;
+    padding-top: 9vh;
+    padding-right: 1vw;
+    display: flex;
+    width: 86%;
+    height: 4vh;
+    align-items: center;
+    text-shadow: 1px 1px 2px black;
+    justify-content: flex-end;
+
+}
+
+.menu {
+
+    position: fixed;
+    z-index: 1000;
+    padding-top: 2vh;
+    padding-right: 1vw;
+    display: flex;
+    width: 100%;
+    height: 4vh;
+    align-items: center;
+    text-shadow: 1px 1px 2px black;
+    justify-content: flex-end;
+}
+
+.menu p {
+    color: white;
+    padding-right: 1vw;
+    font-family: 'CenturyGothic';
+    margin: 0;
+
+
+}
+
+.menu img {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+.categoriaMenu {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 6vh;
+
+}
+
+.proyectoMenu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.departamentoMenu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.galeriaMenu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ubicacionMenu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.subsidioMenu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.categoriaMenu img {
+    width: 6.4vw;
 }
 
 
+
+
+
+.fondo {
+    background: linear-gradient(to right, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url("/assets/img/Links/portada.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: -100;
+
+}
 
 @font-face {
     font-family: 'CenturyGothic-italic';
@@ -63,30 +170,6 @@ video{
 }
 
 
-.menu {
-    padding-top: 2vh;
-    padding-right: 2vw;
-    display: flex;
-    width: 3vw;
-    height: 4vh;
-    align-items: center;
-    text-shadow: 1px 1px 2px black;
-    justify-content: flex-end;
-}
-
-.menu p {
-    color: white;
-    padding-right: 1vw;
-    font-family: 'CenturyGothic';
-    margin: 0;
-
-}
-
-.menu img {
-    width: 40px;
-    height: 40px;
-
-}
 
 
 .logomediopadre {
@@ -97,7 +180,7 @@ video{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 138px;
-    
+
 }
 
 
@@ -112,7 +195,7 @@ video{
 
 .logoMedio img {
     width: 20vw;
-    
+
 }
 
 @font-face {
@@ -123,7 +206,7 @@ video{
 .parrafomedio1 h3 {
     color: white;
     font-size: 56px;
-   
+
     text-shadow: 1px 1px 2px black;
     font-family: 'CenturyGothic-bold';
 }
@@ -149,7 +232,7 @@ video{
     flex-wrap: nowrap;
     padding-bottom: 2vw;
     padding-top: 2vh;
-    
+
 }
 
 @font-face {
@@ -202,54 +285,59 @@ p {
 
 }
 
-.rectangulo{
-    background-color:rgb(99, 100, 95);
+
+
+
+.rectangulo {
+    background-color: rgb(99, 100, 95);
     height: 200px;
     display: flex;
-        flex-direction: row;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
-.vende .empresa{
-    color: rgb(255, 118, 31);   
+
+.vende .empresa {
+    color: rgb(255, 118, 31);
 }
-p{
+
+p {
     color: white;
 }
 
-.aliados{
-  display: flex;  
+.aliados {
+    display: flex;
 }
 
 
-.construye .c{
+.construye .c {
     color: rgb(0, 120, 112);
 }
 
-.desarrolla{
+.desarrolla {
     padding-left: 3vw;
 }
 
-.desarrolla .d{
+.desarrolla .d {
     color: rgb(255, 57, 55);
 }
 
-.logo{
+.logo {
     width: 10vw;
 }
 
-.contacto{
-padding-right: 10px;    
-border-right: 2px solid white;
+.contacto {
+    padding-right: 10px;
+    border-right: 2px solid white;
 }
 
-.ladoIzq{
- display: flex;
-     flex-direction: row;
+.ladoIzq {
+    display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
 }
 
-.serviu{
+.serviu {
     margin-left: 2vw;
     width: 9vw;
     display: flex;
@@ -258,11 +346,11 @@ border-right: 2px solid white;
 
 }
 
-.serviu img{
+.serviu img {
     width: 5vw;
 }
 
-.serviu p{
+.serviu p {
     text-align: end;
 }
 
@@ -273,18 +361,23 @@ footer {
     justify-content: space-between;
     position: relative;
     vertical-align: text-bottom;
+
 }
-.ley{
+
+.ley {
     display: flex;
     align-items: center;
+
 }
-.ley p{
+
+.ley p {
     color: black;
     font-size: 10px;
     padding-left: 2vw;
-    
+
 
 }
+
 .cuadros {
     display: flex;
     flex-direction: row;
@@ -311,147 +404,318 @@ footer {
 
 }
 
-@media(max-width: 576px){
-.background {
-    height: 65%;
-}
-.location p {
-    font-size: smaller;
+@media(max-width: 576px) {
+
+    .icono {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right, rgb(0 0 0 / .6), rgb(0 0 0 / .8));
+        display: none;
+
+
+    }
+
+    .cierre {
+        position: fixed;
+        z-index: 1000;
+        display: flex;
+        width: 50%;
+        align-items: center;
+        text-shadow: 1px 1px 2px black;
+        justify-content: flex-end;
+
+    }
+
+    .cierre img {
+        width: 10vw;
+    }
+
+    .menu {
+
+        position: fixed;
+        z-index: 1000;
+        padding-top: 2vh;
+        padding-right: 1vw;
+        display: flex;
+        width: 100%;
+        height: 4vh;
+        align-items: center;
+        text-shadow: 1px 1px 2px black;
+        justify-content: flex-end;
+    }
+
+    .menu p {
+        color: white;
+        padding-right: 1vw;
+        font-family: 'CenturyGothic';
+        margin: 0;
+
+
+    }
+
+    .menu img {
+
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .categoriaMenu {
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 6vh;
+
+    }
+
+    .proyectoMenu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .departamentoMenu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .galeriaMenu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .ubicacionMenu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .subsidioMenu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .categoriaMenu img {
+        width: 21.4vw;
+    }
+
+
+
+
+    .fondo {
+        height: 65%;
+    }
+
+    .location p {
+        font-size: smaller;
+
+    }
+
+    .menu p {
+
+        font-size: smaller;
+
+    }
+
+    .menu img {
+        width: 25px;
+        height: 25px;
+
+    }
+
+
+    .logoMedio {
+        padding: 0;
+    }
+
+    .logoMedio img {
+        width: 56vw;
+        padding-top: 5%;
+    }
+
+    .parrafomedio1 h3 {
+        font-size: 23px;
+        padding-top: 20px;
+    }
+
+
+    .parrafomedio2 h3 {
+        font-size: 30px;
+        padding-left: 0;
+    }
+
+    .boton {
+        display: flex;
+        place-content: center;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    button {
+        border-radius: 5px;
+        font-size: 3vh;
+        width: 231px;
+    }
+
+
+    .subsidio {
+        width: 150px;
+        height: 123px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3vh;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .subsidio .p2 {
+        font-family: 'CenturyGothic-bold';
+        font-size: 27px;
+    }
+
+    .subsidio .p3 {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    /* comienza pie de pagina*/
+    .rectangulo {
+        height: 563px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .asociados {
+        position: relative;
+        top: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 500;
+    }
+
+    .aliados {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vende {
+        display: flex;
+    }
+
+    .vende .empresa {
+        color: rgb(255, 118, 31);
+        padding-right: 1vw;
+    }
+
+    p {
+        color: white;
+    }
+
+    .construye {
+        display: flex;
+    }
+
+    .construye .c {
+        color: rgb(0, 120, 112);
+        padding-right: 2vw;
+    }
+
+    .desarrolla {
+
+        display: flex;
+    }
+
+    .desarrolla .d {
+        color: rgb(255, 57, 55);
+        padding-right: 2vw;
+    }
+
+    .logo {
+        width: 217px;
+        position: relative;
+        bottom: 20vh;
+    }
+
+
+
+    .contacto {
+        padding-right: 0;
+        border-right: 0;
+        padding-bottom: 30px;
+        border-bottom: 1px solid white;
+        font-size: small;
+        position: relative;
+        bottom: 24vh;
+        text-align: center;
+        font-family: 'centuryGothic';
+    }
+
+    span {
+        font-weight: 600;
+    }
+
+    .ladoIzq {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .serviu {
+
+        width: 63vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top: 1px solid white;
+        padding-top: 4vh;
+
+
+    }
+
+    .serviu img {
+        width: 21vw;
+    }
+
+    .serviu p {
+        text-align: end;
+    }
+
+    footer {
+        background-color: white;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        vertical-align: text-bottom;
+        flex-direction: column-reverse;
+
+    }
+
+
 
 }
 
-.menu p {
- 
-    font-size: smaller;
+.ley p {
+    padding-top: 3vh;
+    font-size: 3vw;
+    text-align: center;
+    color: rgb(99, 100, 95);
 
 }
 
-.menu img {
-    width: 25px;
-    height: 25px;
-
-}
-
-
-.logoMedio {
-    padding: 0;
-}
-
-.logoMedio img {
-    width: 56vw;
-    padding-top: 5%;
-}
-
-.parrafomedio1 h3 {
-    font-size: 23px;
-    padding-top: 20px;
-}
-
-
-.parrafomedio2 h3 {
-    font-size: 30px;
-    padding-left: 0;
-}
-
-.boton {
-    display: flex;
-    place-content: center;
-    flex-direction: column;
-    padding-top: 50px;
-}
-
-button {
-    border-radius: 5px;
-    font-size: 3vh;
-    width: 231px;
-}
-
-
-.subsidio {
-    width: 150px;
-    height: 123px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 3vh;
-}
-
-p {
-    margin: 0;
-}
-
-.subsidio .p2 {
-    font-family: 'CenturyGothic-bold';
-    font-size: 27px;
-}
-
-.subsidio .p3 {
-    font-size: 40px;
-    margin: 0;
-}
-
-/* comienza pie de pagina*/
-.rectangulo{
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-}
-.vende .empresa{
-    color: rgb(255, 118, 31);   
-}
-p{
-    color: white;
-}
-
-.construye .c{
-    color: rgb(0, 120, 112);
-}
-
-.desarrolla{
-    padding-left: 3vw;
-}
-
-.desarrolla .d{
-    color: rgb(255, 57, 55);
-}
-
-.logo{
-    width: 200px;
-}
-
-.contacto{
-padding-right: 10px;    
-border-right: 2px solid white;
-font-size: small;
-}
-
-.ladoIzq{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-
-.serviu{
-    margin-left: 0vw;
-    width: 41vw;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-
-}
-
-.serviu img{
-    width: 10vw;
-}
-
-.serviu p{
-    text-align: end;
-}
-
-
-.ley p{
-    color: black;
-    font-size: 0;
-
+.cuadros{
+    background-color: rgb(230, 230, 230);
 }
 
 .rojo {
@@ -468,5 +732,3 @@ font-size: small;
     width: 26px;
     height: 26px;
 }
-}
-
